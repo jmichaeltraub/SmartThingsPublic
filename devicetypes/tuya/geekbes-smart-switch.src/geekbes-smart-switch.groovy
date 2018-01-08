@@ -48,7 +48,7 @@ def refresh() {
     {
     	sendEvent(name: "switch", value: "on")
     }else{
-    	sendEvent(name: "switch", value: "off")
+    	sendEvent(name: "switch", value: "off") 
     }
     log.debug "End Refresh"
 }
